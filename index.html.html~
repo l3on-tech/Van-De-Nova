@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hoffmann Transporte</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+  }
+  header {
+    background-color: #365778;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  .hero {
+    width: 100%;
+    overflow: hidden;
+  }
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .content {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  h2 {
+    color: #365778;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Hoffmann Transporte</h1>
+<img src="eut2_hq_691a1b03_stitch.png" width="650" height="500" alt="">
+</header>
+<section class="hero">
+
+</section>
+<section class="content">
+  <h2>Über uns</h2>
+  <p>
+    Hoffmann Transporte wurde am 1. November 2025 gegründet und hat sich seitdem als zuverlässiger Partner im Bereich Baustoff- und Agrartransporte etabliert. Mit fachgerechter Durchführung, hoher Flexibilität und großem Engagement sorgen wir dafür, dass Materialien sicher und termingerecht dort ankommen, wo sie gebraucht werden.
+  </p>
+  <p>
+    Unser Fuhrpark besteht inzwischen aus 6 modernen Fahrzeugen, darunter ein Scania sowie fünf MAN-Lkw, die sowohl im Baustoff- als auch im Agrarsektor optimal eingesetzt werden können. Durch regelmäßige Wartung und zeitgemäße Ausstattung gewährleisten wir höchste Effizienz und Sicherheit im täglichen Einsatz.
+  </p>
+  <p>
+    Hoffmann Transporte steht für Qualität, Verlässlichkeit und kundenorientierten Service – Tag für Tag.
+  </p>
+</section>
+</body>
+</html>
+<section class="content">
+  <h2>Unser Discord</h2>
+  <p>
+    Du möchtest mehr erfahren? dann komm Jetzt auf unseren Discord 
+  </p>
+  <p>
+    <a href="https://discord.gg/tsEzxE3dfu" target="_blank" rel="noopener noreferrer">
+      Jetzt zum Discord
+    </a>
+  </p>
+</section>
+<section class="content">
+  <h2>Unser Instagram Account</h2>
+  <p>
+    Du möchtest mehr erfahren? dann komm Jetzt nach Instagram
+  </p>
+  <p>
+    <a href="https://www.instagram.com/hoffmantransporte?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+      Jetzt nach Instagram 
+    </a>
+  </p>
+</section>
+<br><br><br><br><br><br><br><br><br> <p> Website made by Leon.p </p>
+
+
+
