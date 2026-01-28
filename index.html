@@ -1,117 +1,163 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Hoffmann Transporte</title>
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #000;
-  }
-  header {
-    background-color: #365778;
-    padding: 20px;
-    text-align: center;
-    color: white;
-  }
-  .hero {
-    width: 100%;
-    overflow: hidden;
-  }
-  .hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  .content {
-    padding: 40px;
-    max-width: 900px;
-    margin: auto;
-    line-height: 1.6;
-  }
-  h2 {
-    color: #365778;
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Van De Nova</title>
 
-  /* Neuer Footer */
-  footer {
-    background-color: #365778;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-    font-size: 16px;
-  }
-</style>
+  <style>
+    :root {
+      --primary: #006DC5;
+      --dark: #000000;
+      --light: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: var(--dark);
+      color: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--dark), var(--primary));
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--primary);
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+    }
+
+    footer {
+      background-color: #050505;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    /* ===== FUHRPARK ===== */
+    .fuhrpark-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .fuhrpark-item {
+      background-color: #0d0d0d;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #1a1a1a;
+      transition: transform 0.3s, border-color 0.3s;
+    }
+
+    .fuhrpark-item:hover {
+      transform: scale(1.05);
+      border-color: var(--primary);
+    }
+
+    .fuhrpark-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
 </head>
+
 <body>
-<header>
-  <h1>Hoffmann Transporte</h1>
-  <img src="eut2_hq_691a1b03_stitch.png" width="650" height="500" alt="">
-</header>
 
-<section class="hero"></section>
+  <header>
+    <h1>Van De Nova</h1>
+    <p>Innovation. Qualität. Zukunft.</p>
+  </header>
 
-<section class="content">
-  <h2>Über uns</h2>
-  <p>
-    Hoffmann Transporte wurde am 1. November 2025 gegründet und hat sich seitdem als zuverlässiger Partner im Bereich Baustoff- und Agrartransporte etabliert. Mit fachgerechter Durchführung, hoher Flexibilität und großem Engagement sorgen wir dafür, dass Materialien sicher und termingerecht dort ankommen, wo sie gebraucht werden.
-  </p>
-  <p>
-    Unser Fuhrpark besteht inzwischen aus 6 modernen Fahrzeugen, darunter ein Scania sowie fünf MAN-Lkw, die sowohl im Baustoff- als auch im Agrarsektor optimal eingesetzt werden können. Durch regelmäßige Wartung und zeitgemäße Ausstattung gewährleisten wir höchste Effizienz und Sicherheit im täglichen Einsatz.
-  </p>
-  <p>
-    Hoffmann Transporte steht für Qualität, Verlässlichkeit und kundenorientierten Service – Tag für Tag.
-  </p>
+  <!-- ÜBER UNS -->
+  <section id="ueber-uns">
+    <h2>Über Van De Nova</h2>
+    <p>
+      Die Firma Van De Nova ist ein modernes Transportunternehmen mit Sitz in Den Haag, Niederlande.
+      Gegründet wurde das Unternehmen am 17.01.2026 mit dem Ziel, zuverlässige und effiziente
+      Transportlösungen anzubieten.
+      <br><br>
+      Der Fuhrpark von Van De Nova besteht derzeit aus 5 LKWs und 7 Aufliegern.
+      Qualität, Zuverlässigkeit und Pünktlichkeit stehen bei uns an oberster Stelle.
+    </p>
+  </section>
 
-  <!-- Neuer Partner-Abschnitt -->
-  <h2>Partner</h2>
-  <p>
-    Wir freuen uns, bekanntzugeben, dass wir ab sofort eine offizielle Kooperation mit den Virtuellen Firmen <strong>Volvo Baumaschinen</strong> und <strong>Väderstad</strong> eingegangen sind.
-  </p>
-  <p>
-    Durch diese Partnerschaft erweitern wir unser Leistungsangebot erheblich und können unseren Kunden künftig noch effizientere, modernere und leistungsstärkere Lösungen im Bereich Bau- und Landtechnik anbieten. Die Zusammenarbeit mit zwei so renommierten Herstellern ermöglicht es uns, sowohl im Maschinen- als auch im Servicebereich neue Standards zu setzen.
-  </p>
-  <p>
-    Mit Volvo Baumaschinen integrieren wir hochwertige und robuste Technik für den anspruchsvollen Einsatz im Baugewerbe. Väderstad ergänzt unser Portfolio mit innovativen Lösungen für die Bodenbearbeitung und Aussaat, die für hohe Präzision und Wirtschaftlichkeit stehen.
-  </p>
-  <p>
-    Wir freuen uns auf die gemeinsamen Projekte und auf die Vorteile, die diese Kooperation unseren Kunden bringt.
-  </p>
-</section>
+  <!-- FUHRPARK -->
+  <section id="fuhrpark">
+    <h2>Unser Fuhrpark</h2>
 
+    <div class="fuhrpark-grid">
+      <div class="fuhrpark-item">
+        <img src="20260125144906_1_hq.png" width="1427" height="1172" alt="LKW 1">
+      </div>
+      <div class="fuhrpark-item">
+        <img src="20260125144906_1_hq.png" width="1427" height="1172" alt="LKW 2">
+      </div>
+      <div class="fuhrpark-item">
+        <img src="20260125134655_1_hq.png" width="1417" height="1167" alt="LKW 3">
+      </div>
+      <div class="fuhrpark-item">
+        <img src="bilder/lkw4.jpg" alt="LKW 4">
+      </div>
+      <div class="fuhrpark-item">
+        <img src="bilder/lkw5.jpg" alt="LKW 5">
+      </div>
+    </div>
+  </section>
 
-<section class="content">
-  <h2>Unser Discord</h2>
-  <p>
-    Du möchtest mehr erfahren? Dann komm jetzt auf unseren Discord!
-  </p>
-  <p>
-    <a href="https://discord.gg/tsEzxE3dfu" target="_blank" rel="noopener noreferrer">
-      Jetzt zum Discord
-    </a>
-  </p>
-</section>
+  <!-- DISCORD -->
+  <section>
+    <h2>Unser Discord</h2>
+    <p>Du möchtest mehr erfahren? Dann komm jetzt auf unseren Discord!</p>
+    <p>
+      <a href="https://discord.gg/HVh6HaDkpA" target="_blank">Jetzt zum Discord</a>
+    </p>
+  </section>
 
-<section class="content">
-  <h2>Unser Instagram Account</h2>
-  <p>
-    Du möchtest mehr erfahren? Dann besuche unseren Instagram-Account!
-  </p>
-  <p>
-    <a href="https://www.instagram.com/hoffmantransporte?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-      Jetzt nach Instagram
-    </a>
-  </p>
-</section>
+  <!-- INSTAGRAM -->
+  <section>
+    <h2>Unser Instagram Account</h2>
+    <p>Du möchtest mehr erfahren? Dann besuche unseren Instagram-Account!</p>
+    <p>
+      <a href="https://www.instagram.com/van_de_nova" target="_blank">
+        Jetzt nach Instagram
+      </a>
+    </p>
+  </section>
 
-<!-- Neuer Footer -->
-<footer>
-  Hoffmann Transporte
-</footer>
+  <footer>
+    © 2026 Van De Nova · Alle Rechte vorbehalten
+  </footer>
 
 </body>
 </html>
